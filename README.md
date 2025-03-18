@@ -1,29 +1,28 @@
-# README #
+# Tesser_seq
 
-This README would normally document whatever steps are necessary to get your application up and running.
+The goal of this device is to allow the performer to recall notes stores in midi files in different ways.
 
-### What is this repository for? ###
+---
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+![img/gui.png](img/gui.png)
 
-### How do I get set up? ###
+---
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Setup
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+---
 
-### Who do I talk to? ###
+## MODES
 
-* Repo owner or admin
-* Other community or team contact
+### Simple mode: note by note
+
+When the performer hits a note (notes off messages are filtered), two things happen in rapid succession:
+
+* A trigger note is send via OSC to a `tesser_pipe` device, which feeds it to an instance of **Synced pitch trigger V1**.
+
+* Inmediately after, ticks are send to the [seq] object until a new, non note-off message is found. That will be sent by the device as midiout. This should be piped to the **Synced pitch trigger V1** device using a **Send MIDI notes via pipe** device.
+
+This way, **Synced pitch trigger V1** receives two streams: one triggers last fed note, and the other feeds the next note to be triggered.
+
+---
