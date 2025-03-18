@@ -1,8 +1,8 @@
 {
-	"name" : "New Project",
+	"name" : "tesser_pipe",
 	"version" : 1,
-	"creationdate" : 3824385144,
-	"modificationdate" : 3824385208,
+	"creationdate" : 3825170530,
+	"modificationdate" : 3825170601,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,11 +10,15 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"tesser_seq(pipe).maxpat" : 			{
+			"tesser_pipe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
+
+		}
+,
+		"code" : 		{
 
 		}
 

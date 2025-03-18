@@ -2,7 +2,7 @@
 	"name" : "tesser_seq",
 	"version" : 1,
 	"creationdate" : 3824144996,
-	"modificationdate" : 3824385117,
+	"modificationdate" : 3825172214,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -40,7 +40,7 @@
 	}
 ,
 	"detailsvisible" : 0,
-	"amxdtype" : 0,
+	"amxdtype" : 1835887981,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
