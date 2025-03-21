@@ -1,0 +1,3 @@
+[submodule "tesser_pipe"]
+	path = tesser_pipe
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_pipe.git
