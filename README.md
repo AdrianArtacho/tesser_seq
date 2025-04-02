@@ -26,3 +26,13 @@ When the performer hits a note (notes off messages are filtered), two things hap
 This way, **Synced pitch trigger V1** receives two streams: one triggers last fed note, and the other feeds the next note to be triggered.
 
 ---
+
+## To-Do
+
+* Toggle: restart after last note... or not
+
+* read clip name: store as such the local path to a midi file
+
+* That, on loading, restart and flush
+
+* make a repo for midifiles? that work well with seq
