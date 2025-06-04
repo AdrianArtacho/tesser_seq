@@ -36,6 +36,9 @@ Use [tesser_split](https://bitbucket.org/AdrianArtacho/tesser_split) to split mi
 Use [tesser_hold](https://bitbucket.org/AdrianArtacho/tesser_hold) to ignore notes off and hold the notes so long as needed. 
 In order to then stop the held notes, you need to pass the note witha a vel = 1 (pseudo note off)
 
+The first notes (0-24) should be used for DMX stuff
+
+The last 121-127 could encode the splits/octaves information
 
 
 ---
@@ -44,8 +47,9 @@ In order to then stop the held notes, you need to pass the note witha a vel = 1 
 
 * Toggle: restart after last note... or not (different possible behaviours)
 
-* read clip name: store as such the local path to a midi file
+* read clip name: store as such the local path to a midi file (great to load, and change files... from the folder/repo)
 
 * That, on loading, restart and flush (reload from the path stored in a textedit)
 
 * make a repo for midifiles? that work well with seq
+
