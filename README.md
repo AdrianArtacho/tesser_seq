@@ -27,12 +27,25 @@ This way, **Synced pitch trigger V1** receives two streams: one triggers last fe
 
 ---
 
+## Multitrack tricks
+
+You can store different instruments in different ranges of the midi file.
+
+Use [tesser_split](https://bitbucket.org/AdrianArtacho/tesser_split) to split midi above/below a pitch value.
+
+Use [tesser_hold](https://bitbucket.org/AdrianArtacho/tesser_hold) to ignore notes off and hold the notes so long as needed. 
+In order to then stop the held notes, you need to pass the note witha a vel = 1 (pseudo note off)
+
+
+
+---
+
 ## To-Do
 
-* Toggle: restart after last note... or not
+* Toggle: restart after last note... or not (different possible behaviours)
 
 * read clip name: store as such the local path to a midi file
 
-* That, on loading, restart and flush
+* That, on loading, restart and flush (reload from the path stored in a textedit)
 
 * make a repo for midifiles? that work well with seq
