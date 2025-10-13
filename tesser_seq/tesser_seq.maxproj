@@ -2,7 +2,7 @@
 	"name" : "tesser_seq",
 	"version" : 1,
 	"creationdate" : 3824144996,
-	"modificationdate" : 3825172214,
+	"modificationdate" : 3843208395,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"clipname.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
