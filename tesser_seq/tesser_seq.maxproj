@@ -2,7 +2,7 @@
 	"name" : "tesser_seq",
 	"version" : 1,
 	"creationdate" : 3824144996,
-	"modificationdate" : 3843208395,
+	"modificationdate" : 3843459842,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -25,11 +25,13 @@
 ,
 		"code" : 		{
 			"helpargs.js" : 			{
-				"kind" : "javascript"
+				"kind" : "javascript",
+				"local" : 1
 			}
 ,
 			"helpdetails.js" : 			{
-				"kind" : "javascript"
+				"kind" : "javascript",
+				"local" : 1
 			}
 
 		}
