@@ -62,5 +62,8 @@ You may use a custom CC number to restart the sequence at a given point
 
 * Add link to midifiles repo (sub README)
 * Add a link to pass the commands: commit, push... etc. from the shell to the midifiles instance.
+* Larger textedit for the extracted path-to-midifiles
+* Button on GUI to open that folder in finder
+* ISSUE with finding the files!
 
 
