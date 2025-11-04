@@ -40,16 +40,27 @@ The first notes (0-24) should be used for DMX stuff
 
 The last 121-127 could encode the splits/octaves information
 
+---
 
+## Restart via CC
+
+You may use a custom CC number to restart the sequence at a given point
+
+## Loading midi files
+
+1. Drag and drop (the container folder will be extracted)
+2. Once the container folder is set, the filename (without extension) will suffice to load the file.
 ---
 
 ## To-Do
 
-* Toggle: restart after last note... or not (different possible behaviours)
-
-* read clip name: store as such the local path to a midi file (great to load, and change files... from the folder/repo)
+* Restart via CC: (different possible behaviours?): forward-restart, forward-backward... etc. (settable via CC)
 
 * That, on loading, restart and flush (reload from the path stored in a textedit)
 
-* make a repo for midifiles? that work well with seq
+* Allow for (gate/trigger) behaviours for midi notes entering (and >> pipe)
+
+* Add link to midifiles repo (sub README)
+* Add a link to pass the commands: commit, push... etc. from the shell to the midifiles instance.
+
 
