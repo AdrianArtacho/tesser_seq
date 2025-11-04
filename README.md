@@ -44,7 +44,10 @@ The last 121-127 could encode the splits/octaves information
 
 ## Restart via CC
 
-You may use a custom CC number to restart the sequence at a given point
+You may use a custom CC number (e.g. CC85) to restart the sequence at a given point
+
+Right now, every value different from 0 causes it ti restart. 
+In the future, it would be cool to have value 1 to restart, and the other numbers to set the next note as the index indicated by the value (e.g. CC85 3 will set the sequencer to start with the third note in the seqence in the next trigger).
 
 ## Loading midi files
 
@@ -65,5 +68,5 @@ You may use a custom CC number to restart the sequence at a given point
 * Larger textedit for the extracted path-to-midifiles
 * Button on GUI to open that folder in finder
 * ISSUE with finding the files!
-
+* integration with the PRALLAXism ide
 
